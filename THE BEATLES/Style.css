@@ -55,7 +55,13 @@ body {
     image-resolution: inherit;
 }
 
-/* to make sure the image fits on the frame given without it resizing and destrioying its initial shape*/
+/* to make sure the image fits on the frame given without it resizing and destrioying its initial shape.
+=====================================================================================================
+On the other hand one can use object positon to change the point of focus of the imag ein question.
+      hence; object-positon:x y coordinates;( This is written in percentage)
+*/
+
+
 .main-header img{
     object-fit:cover;
 }
