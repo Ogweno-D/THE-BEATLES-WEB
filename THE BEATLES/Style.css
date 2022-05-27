@@ -55,6 +55,11 @@ body {
     image-resolution: inherit;
 }
 
+/* to make sure the image fits on the frame given without it resizing and destrioying its initial shape*/
+.main-header img{
+    object-fit:cover;
+}
+
 .band-name {
     color: rgba(201, 104, 25, 0.89);
     padding: 20px;
